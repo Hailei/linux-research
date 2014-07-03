@@ -1,0 +1,2 @@
+ionice对异步读写不生效，cfq是把所有的异步请求放在同一请求队列，不属于某一进程，象write，buffered write
+而不是direct io 或者sync model。ionice是不生效的
