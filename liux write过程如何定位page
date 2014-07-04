@@ -1,3 +1,2 @@
-
 		offset = (pos & (PAGE_CACHE_SIZE -1)); /* Within page */  计算出页内offset
 		index = pos >> PAGE_CACHE_SHIFT; 计算出页号
